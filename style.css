@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border: solid 1px #ECEDED;
+  margin-bottom: 42px;
+}
+
+.logo-image {
+    height: 32px;
+    width: auto;
+
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 555px;
+  height: 58px;
+  left: -8px;
+
+}
+
+
+.search-input {
+    flex: 1;
+    background-color: #ECF3F5;
+    width: 357px;
+    height: 48px;
+    opacity: 1;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    margin-left: 70px;
+    padding: 15px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #3c5a84;
+}
+
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.add-table-button {
+    display: flex;
+    background-color: #B1CED4;
+    color:#2c3832;
+
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+  
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.add-icon {
+  width: 16px;
+  height: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1px solid #2c3832;
+  color: #2c3832;
+
+  /* font-size: 12px;
+  font-weight: 700; */
+}
+
+.add-text {
+    padding-left: 10px;
+}
+
+
+
+.add-table-button:hover {
+  background-color: #8fb3c1;
+}
+
+
+.date-picker {
+  position: relative;
+}
+
+
+.date-input {
+  background-color: transparent;
+  border: none;
+
+  font-size: 12px;
+  color: #4f4f4f;
+
+  padding-left: 24px;
+  cursor: pointer;
+}
+
+
+/* cards */
+
+.food-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-left: 140px;
+    padding-right: 472px;
+}
+
+.food-card {
+    width: 203px;
+    height: 214px;
+   
+   
+}
+
+.food-image {
+    display: block;
+    width: 203px;
+    height: 143px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.food-info {
+    width: 203px;
+    height: 71px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #D8E6E9;
+    
+
+}
+
+.food-title {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+
+}
+
+.food-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 11px 0;
+   
+    font-size: 12px;
+    
+}
+
+.category-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #E0B284;
+    width: 23px;
+    height: 23px;
+    font-size: 14px;
+
+    /* translate=>move item X=>move horizontally by12px */
+    transform: translateX(12px); 
+}
+
+.category-value::before {
+    content: "";
+}
+
+.fries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 11px 0;
+   
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.catvalue {
+    color: #ffffff;
+    background-color: #D89F65;
+}
+
+.value-salad {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #A2774C;
+    width: 23px;
+    height: 23px;
+    color: #ffffff;
+    transform: translateX(22px); 
+    font-size: 14px;
+
+}
+
+
+.summersalad {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #EAF0F0;
+    width: 23px;
+    height: 23px;
+    transform: translateX(22px);
+    font-size: 14px; 
+
+}
+
+
+.chickenlemon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 11px 0;
+   
+    font-size: 12px;
+    
+}
+
+.lemonvalue {
+    color: #ffffff;
+    background-color: #D89F65;
+}
+
+
+/* bolo nawilis damateba */
+
+
+.category-section {
+  position: fixed;
+  bottom: 0;
+  left: 115px;
+  right: 310px;  
+  height: 90px;
+  background-color: #EAF0F0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.category-inner {
+  display: flex;
+  gap: 65px;
+  padding: 0 25px;
+}
+
+.category-btn {
+  height: 48px;
+  min-width: 140px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+  color: #9A9A9A;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.category-btn.active {
+  background-color: #4A5C2F;
+  color: #ffffff;
+  width: 158px;
+}
+
+.main-course {
+    width: 195px;
+}
+
+.drinks {
+    width: 147px;
+}
+
+.desserts {
+    width: 167px;
+}
+
+
+
+
+/*_RESPONSIVE_*/
+
+@media (max-width: 1200px) {
+  .food-section {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 15px;
+  }
+
+  .top-left {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search-input {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .category-inner {
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .category-section {
+    left: 10px;
+    right: 10px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 900px) {
+  .food-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .food-card {
+    width: 100%;
+  }
+
+  .category-btn {
+    min-width: 100px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .food-section {
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 10px;
+  }
+
+  .top-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .top-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .category-section {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .category-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
