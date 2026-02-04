@@ -5,7 +5,7 @@
 თქვენი დავალებაა მოცემული დიზაინის აწყობა HTML და CSS ტექნოლოგიების გამოყენებით.
 მთავარი მიზანია სუფთა, ვალიდური და ადვილად წაკითხვადი კოდის დაწერა, რომელიც ვიზუალურად მაქსიმალურად ზუსტად გაიმეორებს Figma-ში მოცემულ დიზაინს.
 
-🔗 Figma ლინკი: [Css fundamentals](https://www.figma.com/design/itqAVhJDIn39O3pYHuftbz/POS-restaurant-UI-system--Community-?node-id=0-1&p=f&t=f4Rg2a8ONnbGR6Ax-0)
+🔗 Figma ლინკი: [Css fundamentals](https:// www.figma.com/design/itqAVhJDIn39O3pYHuftbz/POS-restaurant-UI-system--Community-?node-id=0-1&p=f&t=f4Rg2a8ONnbGR6Ax-0)
 
 🛠 ტექნიკური მოთხოვნები (Technical Requirements)
 1. Semantic HTML
@@ -93,6 +93,8 @@
 ატვირთეთ ეს სურათი თქვენს GitHub რეპოზიტორიაში, კოდის ფაილებთან ერთად.
 
 ჩასვით სურათი README.md ფაილში.
+
+![Design Preview](./preview.png)
 
 ✅ მიღების კრიტერიუმები (Acceptance Criteria)
 

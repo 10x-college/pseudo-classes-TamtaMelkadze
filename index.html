@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS-Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-section">
+        <div class="top-left">
+            <img src="POS.png" alt="POS-logo" class="logo-image"/>
+        
+            <input
+                class="search-input"
+                type="text"
+                placeholder="Search product or any order..."
+            />
+        </div>
+
+        <div class="top-right">
+            <div class="date-picker">
+                <input
+                    type="datetime-local"
+                    class="date-input"
+                    value="2022-10-18T10:00"
+                />
+            </div>
+
+            <button class="add-table-button">
+                <span class="add-icon">+</span>
+                <span class="add-text">ADD TABLE</span>
+
+            </button>
+        </div>       
+    </header>
+
+    <main class="main-content">
+        <section class="food-section">
+
+        <!-- food card 1 -->
+            <article class="food-card">
+                <img
+                    src="chickenwings.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value">N</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+
+                </div>
+            </article>
+
+
+            <!-- food card 2 -->
+
+            <article class="food-card">
+                <img
+                    src="frenchfries.jpg"
+                    alt="frenchfries"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">FRENCH FRIES</p>
+
+                <div class="food-category fries" id="catfries">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value catvalue">G</span>
+                                    
+                </div>
+
+                </div>
+            </article>
+
+
+
+            <!-- food card 3 -->
+            <article class="food-card">
+                <img
+                    src="summersalad.jpg"
+                    alt="summersalad"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">SUMMER SALAD</p>
+
+                <div class="food-category">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value value-salad">N</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+
+                </div>
+            </article>
+
+
+            <!-- food card 4 -->
+            <article class="food-card">
+                <img
+                    src="summersalad.jpg"
+                    alt="summersalad"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">SUMMER SALAD</p>
+
+                <div class="food-category" id="catsalad">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value summersalad">0<sub><small>%</small></sub></span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+
+                </div>
+            </article>
+
+
+            <!-- food card 5 -->
+            <article class="food-card">
+                <img
+                    src="chickenwingslemon.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+            <!-- food card 6 -->
+            <article class="food-card">
+                <img
+                    src="bread.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+            <!-- food card 7 -->
+            <article class="food-card">
+                <img
+                    src="glasses.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+            <!-- food card 8 -->
+            <article class="food-card">
+                <img
+                    src="glasses.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+
+            <!-- food card 9 -->
+            <article class="food-card">
+                <img
+                    src="chickenwingslemon.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+            <!-- food card 10 -->
+            <article class="food-card">
+                <img
+                    src="bread.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+            <!-- food card 11 -->
+            <article class="food-card">
+                <img
+                    src="glasses.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+
+
+            <!-- food card 12 -->
+            <article class="food-card">
+                <img
+                    src="glasses.jpg"
+                    alt="Chicken wings"
+                    class="food-image"
+                />
+
+                <div class="food-info">
+                    <p class="food-title">CHICKEN WINGS</p>
+
+                <div class="food-category chickenlemon">
+                    <span class="category-label">CATEGORY:</span>
+                    <span class="category-value lemonvalue">G</span>
+                    <span class="spicy-icon"><img src="chilli 1.png" alt="chilli"><img src="chilli 1.png" alt="chilli"></span>                
+                </div>
+                </div>
+            </article>
+        </section>
+
+
+        <footer class="category-section">
+            <div class="category-inner">
+            <button class="category-btn active">Starter</button>
+            <button class="category-btn main-course">Main course</button>
+            <button class="category-btn drinks">Drinks</button>
+            <button class="category-btn desserts">Desserts</button>
+
+            </div>
+
+        </footer>
+
+
+    </main>
+
+
+
+
+
+
+
+</body>
+</html>
